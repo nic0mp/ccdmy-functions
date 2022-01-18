@@ -39,3 +39,24 @@ function makeShoppingList(item1='milk', item2='bread', item3='eggs'){
   console.log(`Remember to buy ${item2}`);
   console.log(`Remember to buy ${item3}`);
 }
+
+// RETURN STATEMENT
+
+function rectangleArea(width, height) {
+  if (width < 0 || height < 0) {
+    return 'You need positive integers to calculate area!';
+  }
+  return width * height;
+}
+console.log(rectangleArea(5, 7))
+
+function monitorCount(rows,columns) {
+  return rows * columns
+}
+const numOfMonitors = monitorCount (5, 4);
+console.log(numOfMonitors);
+// or___________
+function monitorCount(rows,columns) {
+  return rows * columns
+}
+console.log(monitorCount (5, 4))
