@@ -91,3 +91,12 @@ const plantNeedsWater = function(day) {
   }
 };
 console.log(plantNeedsWater('Tuesday'))
+
+// Arrow notation
+const plantNeedsWater = (day) => {
+  if (day === 'Wednesday') {
+    return true;
+  } else {
+    return false;
+  }
+};
