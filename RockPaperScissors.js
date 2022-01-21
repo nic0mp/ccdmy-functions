@@ -31,5 +31,5 @@ const getUserChoice = userInput => {
       } else {
         return 'User Won!';
       }
-    }
+    } if 
   }
