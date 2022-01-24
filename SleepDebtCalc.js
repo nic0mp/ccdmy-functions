@@ -17,3 +17,7 @@ const getSleepHours = day => {
       return 'Please enter a valid day'
     }
   };
+  const = getActualSleepHours = () => {
+    getSleepHours('monday') + getSleepHours('tuesday') + getSleepHours('wednesday') + getSleepHours('thursday') + getSleepHours('friday') + getSleepHours('saturday') + getSleepHours('sunday');
+  }
+  
