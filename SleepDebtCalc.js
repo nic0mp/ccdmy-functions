@@ -22,7 +22,7 @@ const getActualSleepHours = () =>
   getSleepHours('monday') + getSleepHours('tuesday') + getSleepHours('wednesday') + getSleepHours('thursday') + getSleepHours('friday') + getSleepHours('saturday') + getSleepHours('sunday');
 ;
 const getIdealSleepHours = () => {
-  const idealHours = 8;
+  const idealHours = 7.5;
   return idealHours * 7;
 };
 console.log('Your actual sleep hours for the week:' + ' ' + getActualSleepHours());
